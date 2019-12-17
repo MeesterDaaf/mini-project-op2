@@ -25,11 +25,11 @@ Het spel werkt als volgt
 
 ## Uitbreiding
 
-Is je team klaar met de basis: Kijk dan of je een van de onderstaande functionaliteiten kunt maken
+Is je team klaar met het Basis Spel: Kijk dan of je een van de onderstaande functionaliteiten kunt maken
 
-- Na 10 keer klikken wordt de eindscore en naam getoond
-- Opmaak voldoet aan mockup
-- Als het getal op het scherm gelijk is aan 50 dan verliest de speler al zijn/haar punten
-- Bij precies 100 punten wordt er een alert box getoond met "WAT BEN JIJ FANTASTISCH GOED!"
-- Bij het drie keer achter elkaar verkeerd gokken eindigd het spel
-- Bij drie keer achter elkaar goed gokken krijgt de speler 20 punten erbij
+- [ ] Na 10 keer klikken wordt de eindscore en naam getoond
+- [ ] Opmaak voldoet aan mockup
+- [ ] Als het getal op het scherm gelijk is aan 50 dan verliest de speler al zijn/haar punten
+- [ ] Bij precies 100 punten wordt er een alert box getoond met "WAT BEN JIJ FANTASTISCH GOED!"
+- [ ] Bij het drie keer achter elkaar verkeerd gokken eindigd het spel
+- [ ] Bij drie keer achter elkaar goed gokken krijgt de speler 20 punten erbij
