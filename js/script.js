@@ -19,7 +19,7 @@ var score;
 var naam;
 // Hierboven worden de variabelen gemaakt..deze code laat je staan
 
-/************************************************************************* STUDENT 1 MAAKT ONDERSTAANDE CODE ***************************************************************************************/
+/******************************* STUDENT 1 MAAKT ONDERSTAANDE CODE *******************************/
 /*
     LIJST MET FUNCTIONALITEITEN voor functie hogerAntwoord() - zie regel 38
     Als een speler op de knop hoger drukt dan wordt functie hogerAntwoord() aangeroepen.
@@ -58,9 +58,9 @@ function hogerAntwoord() {
     getalOud = getalNieuw;//deze regelcode kun je laten staan.
 }
 
-/************************************************************************* STUDENT 1 MAAKT BOVENSTAANDE CODE ***************************************************************************************/
+/******************************* STUDENT 1 MAAKT BOVENSTAANDE CODE /*******************************/
 
-/************************************************************************* STUDENT 2 MAAKT ONDERSTAANDE CODE ***************************************************************************************/
+/******************************* STUDENT 2 MAAKT ONDERSTAANDE CODE /*******************************/
 /*
     LIJST MET FUNCTIONALITEITEN voor functie lagerAntwoord()
     Als een speler op de knop hoger drukt dan wordt functie lagerAntwoord() aangeroepen.
@@ -98,9 +98,9 @@ function lagerAntwoord() {
     berekenScore(); //deze regelcode kun je laten staan.
     getalOud = getalNieuw;//deze regelcode kun je laten staan.
 }
-/************************************************************************* STUDENT 2 MAAKT BOVENSTAANDE CODE ***************************************************************************************/
+/******************************* STUDENT 2 MAAKT BOVENSTAANDE CODE /*******************************/
 
-/************************************************************************* STUDENT 3 MAAKT ONDERSTAANDE CODE ***************************************************************************************/
+/******************************* STUDENT 3 MAAKT ONDERSTAANDE CODE /*******************************/
 /*
     LIJST MET FUNCTIONALITEITEN voor functie berekenScore()
     Als een speler goed of fout heeft gegokt dan krijg hij punten toegekent! 
@@ -130,4 +130,4 @@ function berekenScore() {
     // Weet je nog hoe je iets kan tonen vanuit JS naar HTML (denk aan het stuk code met .innerHTML )
 
 }
-/************************************************************************* STUDENT 3 MAAKT BOVENSTAANDE CODE ***************************************************************************************/
+/******************************* STUDENT 3 MAAKT BOVENSTAANDE CODE /*******************************/
