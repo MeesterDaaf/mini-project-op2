@@ -1,6 +1,6 @@
 /* Opdracht: 
-    - Jouw code-team bestaat uit maximaal 3 coders 
-    - De code bestaat uit DRIE (3) functies die jij moet afmaken
+    - Jouw code-team bestaat uit maximaal 3 studenten 
+    - De code bestaat uit DRIE (3) functies die jullie samen moet maken
     - Elk teamlid maakt tenminste 1 functie
     - Elke functie heeft een lijst met functionaliteiten. LEES DEZE GOED. Daarna ga je coderen in de functie die jij moet maken.
     - Verdeel het werk dus onder elkaar: 
@@ -26,7 +26,7 @@ var naam;
     De onderstaande functionaliteiten (1 t/m 7) moeten in de functie hogerAntwoord() staan:
     (1) getalNieuw krijgt een Random Getal 
     (2) getalNieuw moet getoond worden in het element met id: numberOnSCreen
-    (3) getalOud heeft een getal gekregen (zie regel-13 van dit JS-bestand)
+    (3) getalOud heeft een getal gekregen (zie regel-13 van dit JavaScript-bestand)
         Vergelijk variabele getalOud en variabele getalNieuw met elkaar
     (4) De speler klikt dus op hogerAntwoord(). Als het getalNieuw GROTER is dan getalOud dan heeft die persoon het GOED!
         Tel 1 bij aantalXGoed op!
@@ -130,4 +130,4 @@ function berekenScore() {
     // Weet je nog hoe je iets kan tonen vanuit JS naar HTML (denk aan het stuk code met .innerHTML )
 
 }
-
+/************************************************************************* STUDENT 3 MAAKT BOVENSTAANDE CODE ***************************************************************************************/
