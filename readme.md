@@ -1,19 +1,23 @@
 # Het spel Hoger - lager
 
-## Spel uitleg
-Het spel werkt als volgt: 
-- Bij het begin van het spel staat er een getal in beeld. 
-- Na het drukken op de knop start komt er een ander willekeurig getal. 
-- Is dit getal hoger dan het vorige getal dan klik je op hoger, is het lager dan klik je op lager. Klik je goed, dan krijg je een punt.
-- Daarna komt er weer een nieuw getal.
+## Basis Spel
 
-Na 10 keer klikken wordt de eindscore verwerkt in het scorebord en kan je het spel nog een keer spelen
+Het spel werkt als volgt
 
-## Userstories
-- [ ] 1. als opdrachtgever wil ik dat het spel er uit zoals beschreven in de mockup
-- [ ] 2. als speler wil ik bij het begin van het spel alleen op de knoppen start en speluitleg kunnen klikken
-- [ ] 3. als speler wil ik bij speluitleg kunnen lezen hoe het spel werkt
-- [ ] 4. als speler wil ik of de speluitleg of het spel zien op het scherm
-- [ ] 5. als speler wil ik een punt als ik goed heb geklikt.
-- [ ] 6. als speler wil ik dat mijn score wordt bijgehouden
-- [ ] 7. als speler wil ik zien hoeveel ik punten ik heb gescoord ten opzichte van anderen na 10 keer spelen
+1. Bij het begin van het spel staat er een getal in beeld.
+2. De speler druk of op hoger of op lager.
+3. Er verschijnt een nieuw getal
+4. Heeft de speler goed gegokt dan krijgt hij/zij punten
+5. Heeft de speler fout gegokt dan krijgt hij/zij punten aftrek
+6. Bij 100 punten of meer wordt de naam en de score op het scherm getoond.
+
+## Uitbreiding
+
+Is je team klaar met de basis: Kijk dan of je een van de onderstaande kunt maken
+
+- Na 10 keer klikken wordt de eindscore en naam getoond
+- Opmaak voldoet aan mockup
+- Als het getal op het scherm gelijk is aan 50 dan verliest de speler al zijn/haar punten
+- Bij precies 100 punten wordt er een alert box getoond met "WAT BEN JIJ FANTASTISCH GOED!"
+- Bij het drie keer achter elkaar verkeerd gokken eindigd het spel
+- Bij drie keer achter elkaar goed gokken krijgt de speler 20 punten erbij
