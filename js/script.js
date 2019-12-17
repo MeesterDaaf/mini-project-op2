@@ -16,15 +16,17 @@ var getalNieuw;
 var aantalXfoutief = 0;
 var aantalXGoed = 0;
 var score;
+var naam;
 // Hierboven worden de variabelen gemaakt..deze code laat je staan
 
+/************************************************************************* STUDENT 1 MAAKT ONDERSTAANDE CODE ***************************************************************************************/
 /*
-    LIJST MET FUNCTIONALITEITEN voor functie hogerAntwoord()
+    LIJST MET FUNCTIONALITEITEN voor functie hogerAntwoord() - zie regel 38
     Als een speler op de knop hoger drukt dan wordt functie hogerAntwoord() aangeroepen.
     De onderstaande functionaliteiten (1 t/m 7) moeten in de functie hogerAntwoord() staan:
     (1) getalNieuw krijgt een Random Getal 
     (2) getalNieuw moet getoond worden in het element met id: numberOnSCreen
-    (3) getalOud heeft een getal gekregen op regel-1 van dit js-bestand. 
+    (3) getalOud heeft een getal gekregen (zie regel-13 van dit JS-bestand)
         Vergelijk variabele getalOud en variabele getalNieuw met elkaar
     (4) De speler klikt dus op hogerAntwoord(). Als het getalNieuw GROTER is dan getalOud dan heeft die persoon het GOED!
         Tel 1 bij aantalXGoed op!
@@ -56,13 +58,16 @@ function hogerAntwoord() {
     getalOud = getalNieuw;//deze regelcode kun je laten staan.
 }
 
+/************************************************************************* STUDENT 1 MAAKT BOVENSTAANDE CODE ***************************************************************************************/
+
+/************************************************************************* STUDENT 2 MAAKT ONDERSTAANDE CODE ***************************************************************************************/
 /*
     LIJST MET FUNCTIONALITEITEN voor functie lagerAntwoord()
     Als een speler op de knop hoger drukt dan wordt functie lagerAntwoord() aangeroepen.
     De onderstaande functionaliteiten (1 t/m 7) moeten in de functie lagerAntwoord() staan:
     (1) getalNieuw krijgt een Random Getal 
     (2) getalNieuw moet getoond worden in het element met id: numberOnSCreen
-    (3) getalOud heeft een getal gekregen op regel-1 van dit js-bestand. 
+    (3) getalOud heeft een getal gekregen (zie regel-13 van dit JS-bestand)
         Vergelijk variabele getalOud en variabele getalNieuw met elkaar
     (4) De speler klikt dus op lagerAntwoord(). Als het getalNieuw KLEINER is dan getalOud dan heeft die persoon het GOED!
         Tel 1 bij aantalXGoed op!
@@ -93,14 +98,36 @@ function lagerAntwoord() {
     berekenScore(); //deze regelcode kun je laten staan.
     getalOud = getalNieuw;//deze regelcode kun je laten staan.
 }
+/************************************************************************* STUDENT 2 MAAKT BOVENSTAANDE CODE ***************************************************************************************/
 
+/************************************************************************* STUDENT 3 MAAKT ONDERSTAANDE CODE ***************************************************************************************/
 /*
     LIJST MET FUNCTIONALITEITEN voor functie berekenScore()
-    Als een speler goed of fout heeft gegokt dan krijg hij punten toegekent! yeah!
+    Als een speler goed of fout heeft gegokt dan krijg hij punten toegekent! 
     Aan jou de taak om deze functionaliteiten te maken
-    (1) Bij een goed antwoord
+    (1) Bij een goed antwoord krijgt de speler de volgende punten bij score opgeteld: aantalXGoed * 100
+    (2) Toon de nieuwe score op het scherm met document.getElementById('').innerHTML = ;
+    (3) Bij een fout antwoord worden er punten van de score afgehaald: aantalXFout * 25
+    (4) Toon de nieuwe score op het scherm met document.getElementById('').innerHTML = ;
+    (5) Controleer of de speler 100 of meer punten heeft gehaald
+    (6) Heeft de speler meer dan 100 punten gehaald. vraag om zijn of haar naam met een prompt()
+    (7) Toon de NAAM en EINDSCORE van de speler op het scherm (check de span elementen)
 */
 function berekenScore() {
+    score; // functionaliteit (1) maak je op deze regel: vul de variabele score met de berekening.
+
+    // functionaliteit (2) maak je op deze regel
+
+    score;// functionaliteit (3) maak je op deze regel: vul de variabele score met de berekening.
+
+    // functionaliteit (4) maak je op deze regel
+
+    if (score) { // functionaliteit (5) maak je op deze regel: denk aan vergelijkingsoperators: ==, > of <. Wat ga je met wat vergelijken?
+        naam; // functionaliteit (6) maak je op deze regel: hoe kan je om input vragen? 
+    }
+
+    // functionaliteit (7) mag je helemaal zelf coderen (het zijn maar 2 regels): 
+    // Weet je nog hoe je iets kan tonen vanuit JS naar HTML (denk aan het stuk code met .innerHTML )
 
 }
 
